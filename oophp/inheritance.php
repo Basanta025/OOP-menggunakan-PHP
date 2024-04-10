@@ -53,8 +53,8 @@ class CetakInfoProduk{
     }
 }
 
-$produk1 = new Komik("Naruto", "Masashi Lishimoto", "shonen jump", 30000, 100, 0, );
-$produk2 = new Game("Uncharted", "Neil Druckmen", "sony Computer", 250000, 0, 50, );
+$produk1 = new Komik("Naruto", "Masashi Lishimoto", "shonen jump", 30000, 100, );
+$produk2 = new Game("Uncharted", "Neil Druckmen", "sony Computer", 250000, 0,);
 
 echo $produk1->getInfoKomik();
 echo "<br>";
